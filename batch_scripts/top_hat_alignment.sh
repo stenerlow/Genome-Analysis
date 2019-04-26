@@ -10,9 +10,9 @@
 
 #Load modules
 module load bioinfo-tools
-module load bowtie2/2.3.4.3
-module load tophat/2.1.1
 module load samtools
+module load bowtie2
+module load tophat/2.1.1
 
 #My commands
 
