@@ -12,6 +12,6 @@
 module load bioinfo-tools
 module load trinity
 
-Trinity --genome_guided_bam /home/osst6659/genome_analyses/analyses/04_transcriptome_assembly/merged_sorted_tophat.bam -genome_guided_max_intron 10000 --max_memory 20G --CPU 6 --output /home/osst6659/genome_analyses/analyses/07_trinity_assembly/trinity_output
+Trinity --genome_guided_bam /home/osst6659/genome_analyses/analyses/04_transcriptome_assembly/merged_sorted_tophat.bam -genome_guided_max_intron 10000 --max_memory 20G --CPU 6 --output /home/osst6659/genome_analyses/analyses/07_trinity_assembly/trinity_output --full_cleanup
 
 
