@@ -34,26 +34,6 @@ tophat -o /home/osst6659/genome_analyses/analyses/04_transcriptome_assembly/SCAF
 
 tophat -o /home/osst6659/genome_analyses/analyses/04_transcriptome_assembly/SCAFFOLD_6069 -p 4 /home/osst6659/genome_analyses/analyses/02_pacbio_illumina_alignment/Pilon_improvement/genome_index_base /home/osst6659/genome_analyses/data/raw_data/transcriptome/trimmed/SRR6156069_scaffold_10.1.fastq.gz /home/osst6659/genome_analyses/data/raw_data/transcriptome/trimmed/SRR6156069_scaffold_10.2.fastq.gz
 
-#tophat /home/osst6659/genome_analyses/analyses/02_pacbio_illumina_alignment/Pilon_improvement/genome_index_base \
-#[/home/osst6659/genome_analyses/data/raw_data/transcriptome/trimmed/SRR6040092_scaffold_10.1.fastq.gz, \
-#/home/osst6659/genome_analyses/data/raw_data/transcriptome/trimmed/SRR6040093_scaffold_10.1.fastq.gz, \
-#/home/osst6659/genome_analyses/data/raw_data/transcriptome/trimmed/SRR6040094_scaffold_10.1.fastq.gz, \
-#/home/osst6659/genome_analyses/data/raw_data/transcriptome/trimmed/SRR6040095_scaffold_10.1.fastq.gz, \
-#/home/osst6659/genome_analyses/data/raw_data/transcriptome/trimmed/SRR6040096_scaffold_10.1.fastq.gz, \
-#/home/osst6659/genome_analyses/data/raw_data/transcriptome/trimmed/SRR6040097_scaffold_10.1.fastq.gz, \
-#/home/osst6659/genome_analyses/data/raw_data/transcriptome/trimmed/SRR6156066_scaffold_10.1.fastq.gz, \
-#/home/osst6659/genome_analyses/data/raw_data/transcriptome/trimmed/SRR6156067_scaffold_10.2.fastq.gz, \
-#/home/osst6659/genome_analyses/data/raw_data/transcriptome/trimmed/SRR6156069_scaffold_10.1.fastq.gz] \
-#[/home/osst6659/genome_analyses/data/raw_data/transcriptome/trimmed/SRR6040092_scaffold_10.2.fastq.gz, \
-#/home/osst6659/genome_analyses/data/raw_data/transcriptome/trimmed/SRR6040093_scaffold_10.2.fastq.gz, \
-#/home/osst6659/genome_analyses/data/raw_data/transcriptome/trimmed/SRR6040094_scaffold_10.2.fastq.gz, \
-#/home/osst6659/genome_analyses/data/raw_data/transcriptome/trimmed/SRR6040095_scaffold_10.2.fastq.gz, \
-#/home/osst6659/genome_analyses/data/raw_data/transcriptome/trimmed/SRR6040096_scaffold_10.2.fastq.gz, \
-#/home/osst6659/genome_analyses/data/raw_data/transcriptome/trimmed/SRR6040097_scaffold_10.2.fastq.gz, \
-#/home/osst6659/genome_analyses/data/raw_data/transcriptome/trimmed/SRR6156066_scaffold_10.2.fastq.gz, \
-#/home/osst6659/genome_analyses/data/raw_data/transcriptome/trimmed/SRR6156067_scaffold_10.2.fastq.gz, \
-#/home/osst6659/genome_analyses/data/raw_data/transcriptome/trimmed/SRR6156069_scaffold_10.2.fastq.gz] -o /home/osst6659/genome_analyses/analyses/04_transcriptome_assembly -p 2
-
  
  
 
