@@ -12,6 +12,7 @@
 module load bioinfo-tools
 module load samtools
 
+#Script used to merge ALL RNA reads. Wsa not used in the final pipeline as merging all reads took up too much space.
 samtools merge /home/osst6659/genome_analyses/analyses/04_transcriptome_assembly/merged_tophat_out.bam \
 /home/osst6659/genome_analyses/analyses/04_transcriptome_assembly/SCAFFOLD_0092/accepted_hits.bam \
 /home/osst6659/genome_analyses/analyses/04_transcriptome_assembly/SCAFFOLD_0093/accepted_hits.bam \
